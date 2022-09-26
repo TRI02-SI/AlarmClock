@@ -1,6 +1,6 @@
 
 
-![Screenshot (59)](https://user-images.githubusercontent.com/84464854/192350040-72df7dc7-d53f-44b9-acfa-aad080db3e54.png)
+![Screenshot (59)](https://user-images.githubusercontent.com/84464854/192351230-9f78604c-9fc6-413f-900a-74cd47794f5b.png)
 
 
 **Alarm Clock using Html,Css and Vanilla Javascript**
