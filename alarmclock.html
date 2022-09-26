@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!---meta tags-->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+
+        <!--title of web page-->
+        <title>Alarm Clock</title>
+
+        <!--favicon-->
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/711/711628.png">
+        
+        <!---CSS sylesheet link-->
+        <link rel="stylesheet" type="text/css" href="alarmclock.css">
+        
+    </head>
+    <body>
+        <div class="main-div">
+            <div class="pagetitle">
+                <h1>Alarm Clock
+                    <span><img src="https://cdn-icons-png.flaticon.com/512/899/899039.png"></span>
+                </h1>
+            </div>
+    
+            <div >
+               <h1 id="current-time"></h1>
+            </div>
+    
+            <h3>Set Your Alarm</h3>
+            
+            <div class="d-flex set-alarm-container ">
+                <form>
+                    <div>
+                        <select id="hrs" required></select>
+                    </div>
+                    <div>
+                        <select id="mins" required></select>
+                    </div>
+                    <div>
+                        <select id="secs" required></select>
+                    </div>
+                    <div>
+                        <select id="am-pm" required>
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                    </div>
+                    <div class="controls">
+                        <button type="button" class="setalarmbutton" id="alarm-Set" onclick='alarmSet()'> Set Alarm</button>
+                        <button type="reset" onclick='alarmClear()' class="clearAlarm">Stop Alarm</button>
+                    </div>
+                </form>
+            </div>
+
+            <div id="divider"></div>
+    
+            <div class="upcoming-alarm-container">
+                <h2 class="UpcomingAlarmtitle">Upcoming Alarm</h2>
+                <div class="alarms-container" id="alarm-container">
+                    <ul id = "myList">
+                
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+        
+
+
+        <!---JavaScript File-->
+        <script src="./alarmclock.js"></script>
+        
+    </body>
+</html>
