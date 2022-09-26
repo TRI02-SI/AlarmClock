@@ -1,3 +1,8 @@
+
+
+![Screenshot (59)](https://user-images.githubusercontent.com/84464854/192350040-72df7dc7-d53f-44b9-acfa-aad080db3e54.png)
+
+
 **Alarm Clock using Html,Css and Vanilla Javascript**
 1. This repository is for the alarm clock using Html, Css and Javasccript.
 
@@ -19,6 +24,5 @@ Display a list of all the alarms set by user
 **4.Delete alarm**
 For each alarm give a delete button to delete the alarm
 When the user deletes an alarm make sure it “does not alerts the user
-
 
 
