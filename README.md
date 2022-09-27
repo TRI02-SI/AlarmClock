@@ -25,4 +25,5 @@ Display a list of all the alarms set by user
 For each alarm give a delete button to delete the alarm
 When the user deletes an alarm make sure it “does not alerts the user
 
-
+**Approach followed in the project****
+When an user sets the alarm using setalarm function, new alarm will be added in the upcoming alarm list. If user wants to delete the alarm he/she can delete particular alarm using delete alarm function.
